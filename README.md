@@ -24,7 +24,7 @@ HashDumper automates the following steps:
 - `libhivex-bin` (provides `hivexget`)
 - `ntfs-3g` (for mounting NTFS partitions)
 - Root privileges (the script uses `sudo` for mounting and copying)
-- Linux environment (tested on Kali Linux)
+- Debian environment (tested on Kali Linux)
 
 ## Installation
 

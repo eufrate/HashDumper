@@ -38,7 +38,7 @@ sudo apt install -y impacket-scripts libhivex-bin ntfs-3g
 Clone or download the script:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/eufrate/HashDumper
 cd HashDumper
 ```
 

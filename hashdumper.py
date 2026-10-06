@@ -81,7 +81,7 @@ hivexpath = shutil.which("hivexget")
 if hivexpath is None:
      sec = input("[x]Hivex not found. want to install it?(y/n):")
      if sec == "y":
-          subprocess.run(["sudo", "apt", "install", "libhivex-bin"],
+          subprocess.run(["sudo", "apt", "install", "-y", "libhivex-bin"],
                          check=True
             )
      else:
